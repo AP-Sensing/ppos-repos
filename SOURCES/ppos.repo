@@ -1,6 +1,6 @@
 [ppos-repo]
 name=AP Sensing
-baseurl=http://rocky1.bbn.apsensing.com/rpm-repo/$releasever/$basearch
+baseurl=http://rocky1.bbn.apsensing.com/ppos-repo/$releasever/$basearch
 enabled=1
 skip_if_unavailable=False
 metadata_expire=7d
@@ -9,7 +9,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ppos-38-primary
 
 [ppos-noarch-repo]
 name=AP Sensing NoArch
-baseurl=http://rocky1.bbn.apsensing.com/rpm-repo/$releasever/noarch
+baseurl=http://rocky1.bbn.apsensing.com/ppos-repo/$releasever/noarch
 enabled=1
 skip_if_unavailable=False
 metadata_expire=7d
