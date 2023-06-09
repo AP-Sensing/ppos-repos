@@ -5,7 +5,7 @@ Release:       0
 License:       GPLv3
 Group:         Unspecified
 Summary:       AP Sesning RPM repositories for PhotonPonyOS
-Distribution:  AP Sensing
+Distribution:  PhotonPonyOS
 
 URL:           https://github.com/AP-Sensing/ppos-repos/tree/ppos38
 Vendor:        AP Sensing
