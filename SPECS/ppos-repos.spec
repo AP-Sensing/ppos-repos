@@ -1,7 +1,7 @@
 BuildArch:     noarch
 Name:          ppos-repos
 Version:       38
-Release:       2
+Release:       3
 License:       GPLv3
 Group:         Unspecified
 Summary:       AP Sesning RPM repositories for PhotonPonyOS
