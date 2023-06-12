@@ -5,6 +5,7 @@ enabled=1
 skip_if_unavailable=False
 metadata_expire=7d
 gpgcheck=1
+repo_gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ppos-38-primary
 
 [ppos-noarch-repo]
@@ -14,4 +15,5 @@ enabled=1
 skip_if_unavailable=False
 metadata_expire=7d
 gpgcheck=1
+repo_gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ppos-38-primary
