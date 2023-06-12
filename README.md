@@ -44,3 +44,11 @@ Then run the following commands for signing all (source-)rpms.
 rpm --addsign ~/rpmbuild/SRPMS/**.rpm
 rpm --addsign ~/rpmbuild/RPMS/**/*.rpm
 ```
+
+## Useful Commands
+
+For exporting the gpg key in a format which is readable by rpm:
+```bash
+gpg --list-keys # To list all keys
+gpg --armor --export <key_name> > RPM-GPG-KEY-ppos-primary
+```
