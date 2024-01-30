@@ -1,7 +1,7 @@
 BuildArch:     noarch
 Name:          ppos-repos
 Version:       38
-Release:       6
+Release:       7
 License:       GPLv3
 Group:         Unspecified
 Summary:       AP Sesning RPM repositories for PhotonPonyOS
@@ -45,6 +45,9 @@ install -m 644 %{_sourcedir}/ppos.repo $RPM_BUILD_ROOT/etc/yum.repos.d
 /etc/pki/rpm-gpg/RPM-GPG-KEY-*
 
 %changelog
+* Tue Jan 30 2024 Fabian Sauter <fabian.sauter+rpm@apsensing.com> - 38-7
+- Updated repo to update.ppos.apsensing.com
+
 * Wed Sep 27 2023 Fabian Sauter <fabian.sauter+rpm@apsensing.com> - 38-6
 - Removed repo metadata_expire
 
